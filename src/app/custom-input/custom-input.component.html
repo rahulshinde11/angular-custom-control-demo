@@ -1,0 +1,4 @@
+<div>
+<input #mainInput (input)="change($event)" (focus)="onTouchFn()" type="text" [placeholder]="placeHolder">
+<p *ngIf="errorMessage"> {{ errorMessage }} </p>
+</div>
